@@ -9,7 +9,7 @@ services:
     image: mariadb
     restart: always
     volumes:
-      - /mnt/testSSD/NextCloud_db:/var/lib/mysql
+      - /mnt/SSD/NextCloud_db:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=${ENV_MYSQL_ROOT_PASSWORD}  # .envファイルに環境変数を設定
       - MYSQL_PASSWORD=${ENV_MYSQL_PASSWORD}  # .envファイルに環境変数を設定
