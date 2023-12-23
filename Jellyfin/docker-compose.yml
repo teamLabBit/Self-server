@@ -9,7 +9,7 @@ services:
       - '8096:8096'
       - '8920:8920'
     volumes:
-      - /mnt/testSSD/jellyfin/config:/config
-      - /mnt/testSSD/jellyfin/cache:/cache
-      - /mnt/testSSD/NextCloud/data/user/files/Music:/media
+      - /mnt/SSD/jellyfin/config:/config
+      - /mnt/SSD/jellyfin/cache:/cache
+      - /mnt/SSD/NextCloud/data/user/files/Music:/media
     restart: 'unless-stopped'
